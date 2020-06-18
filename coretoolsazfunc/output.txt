@@ -1,0 +1,159 @@
+Microsoft (R) Build Engine version 16.6.0+5ff7b0c9e for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  coretoolsazfunc -> E:\Azure\Projects\coretoolsazfunc\bin\output\bin\coretoolsazfunc.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:05.93
+
+
+                  %%%%%%
+                 %%%%%%
+            @   %%%%%%    @
+          @@   %%%%%%      @@
+       @@@    %%%%%%%%%%%    @@@
+     @@      %%%%%%%%%%        @@
+       @@         %%%%       @@
+         @@      %%%       @@
+           @@    %%      @@
+                %%
+                %
+
+Azure Functions Core Tools (3.0.2534 Commit hash: bc1e9efa8fa78dd1a138dd1ac1ebef97aac8d78e)
+Function Runtime Version: 3.0.13353.0
+[6/18/2020 6:54:40 PM] FUNCTIONS_WORKER_RUNTIME set to dotnet. Skipping WorkerConfig for language:java
+[6/18/2020 6:54:40 PM] FUNCTIONS_WORKER_RUNTIME set to dotnet. Skipping WorkerConfig for language:node
+[6/18/2020 6:54:40 PM] FUNCTIONS_WORKER_RUNTIME set to dotnet. Skipping WorkerConfig for language:powershell
+[6/18/2020 6:54:40 PM] FUNCTIONS_WORKER_RUNTIME set to dotnet. Skipping WorkerConfig for language:python
+[6/18/2020 6:54:40 PM] Building host: startup suppressed: 'False', configuration suppressed: 'False', startup operation id: 'a83c243e-7200-42a1-9c5d-3136bfb15119'
+[6/18/2020 6:54:41 PM] Reading host configuration file 'E:\Azure\Projects\coretoolsazfunc\bin\output\host.json'
+[6/18/2020 6:54:41 PM] Host configuration file read:
+[6/18/2020 6:54:41 PM] {
+[6/18/2020 6:54:41 PM]   "version": "2.0",
+[6/18/2020 6:54:41 PM]   "logging": {
+[6/18/2020 6:54:41 PM]     "applicationInsights": {
+[6/18/2020 6:54:41 PM]       "samplingExcludedTypes": "Request",
+[6/18/2020 6:54:41 PM]       "samplingSettings": {
+[6/18/2020 6:54:41 PM]         "isEnabled": true
+[6/18/2020 6:54:41 PM]       }
+[6/18/2020 6:54:41 PM]     }
+[6/18/2020 6:54:41 PM]   }
+[6/18/2020 6:54:41 PM] }
+[6/18/2020 6:54:41 PM] Reading functions metadata
+[6/18/2020 6:54:41 PM] 1 functions found
+[6/18/2020 6:54:41 PM] FUNCTIONS_WORKER_RUNTIME set to dotnet. Skipping WorkerConfig for language:java
+[6/18/2020 6:54:41 PM] FUNCTIONS_WORKER_RUNTIME set to dotnet. Skipping WorkerConfig for language:node
+[6/18/2020 6:54:41 PM] FUNCTIONS_WORKER_RUNTIME set to dotnet. Skipping WorkerConfig for language:powershell
+[6/18/2020 6:54:41 PM] FUNCTIONS_WORKER_RUNTIME set to dotnet. Skipping WorkerConfig for language:python
+[6/18/2020 6:54:41 PM] Initializing Warmup Extension.
+[6/18/2020 6:54:41 PM] Initializing Host. OperationId: 'a83c243e-7200-42a1-9c5d-3136bfb15119'.
+[6/18/2020 6:54:41 PM] Host initialization: ConsecutiveErrors=0, StartupCount=1, OperationId=a83c243e-7200-42a1-9c5d-3136bfb15119
+[6/18/2020 6:54:41 PM] LoggerFilterOptions
+[6/18/2020 6:54:41 PM] {
+[6/18/2020 6:54:41 PM]   "MinLevel": "None",
+[6/18/2020 6:54:41 PM]   "Rules": [
+[6/18/2020 6:54:41 PM]     {
+[6/18/2020 6:54:41 PM]       "ProviderName": null,
+[6/18/2020 6:54:41 PM]       "CategoryName": null,
+[6/18/2020 6:54:41 PM]       "LogLevel": null,
+[6/18/2020 6:54:41 PM]       "Filter": "<AddFilter>b__0"
+[6/18/2020 6:54:41 PM]     },
+[6/18/2020 6:54:41 PM]     {
+[6/18/2020 6:54:41 PM]       "ProviderName": "Microsoft.Azure.WebJobs.Script.WebHost.Diagnostics.SystemLoggerProvider",
+[6/18/2020 6:54:41 PM]       "CategoryName": null,
+[6/18/2020 6:54:41 PM]       "LogLevel": "None",
+[6/18/2020 6:54:41 PM]       "Filter": null
+[6/18/2020 6:54:41 PM]     },
+[6/18/2020 6:54:41 PM]     {
+[6/18/2020 6:54:41 PM]       "ProviderName": "Microsoft.Azure.WebJobs.Script.WebHost.Diagnostics.SystemLoggerProvider",
+[6/18/2020 6:54:41 PM]       "CategoryName": null,
+[6/18/2020 6:54:41 PM]       "LogLevel": null,
+[6/18/2020 6:54:41 PM]       "Filter": "<AddFilter>b__0"
+[6/18/2020 6:54:41 PM]     }
+[6/18/2020 6:54:41 PM]   ]
+[6/18/2020 6:54:41 PM] }
+[6/18/2020 6:54:41 PM] FunctionResultAggregatorOptions
+[6/18/2020 6:54:41 PM] {
+[6/18/2020 6:54:41 PM]   "BatchSize": 1000,
+[6/18/2020 6:54:41 PM]   "FlushTimeout": "00:00:30",
+[6/18/2020 6:54:41 PM]   "IsEnabled": true
+[6/18/2020 6:54:41 PM] }
+[6/18/2020 6:54:41 PM] SingletonOptions
+[6/18/2020 6:54:41 PM] {
+[6/18/2020 6:54:41 PM]   "LockPeriod": "00:00:15",
+[6/18/2020 6:54:41 PM]   "ListenerLockPeriod": "00:00:15",
+[6/18/2020 6:54:41 PM]   "LockAcquisitionTimeout": "10675199.02:48:05.4775807",
+[6/18/2020 6:54:41 PM]   "LockAcquisitionPollingInterval": "00:00:05",
+[6/18/2020 6:54:41 PM]   "ListenerLockRecoveryPollingInterval": "00:01:00"
+[6/18/2020 6:54:41 PM] }
+[6/18/2020 6:54:41 PM] HttpOptions
+[6/18/2020 6:54:41 PM] {
+[6/18/2020 6:54:41 PM]   "DynamicThrottlesEnabled": false,
+[6/18/2020 6:54:41 PM]   "MaxConcurrentRequests": -1,
+[6/18/2020 6:54:41 PM]   "MaxOutstandingRequests": -1,
+[6/18/2020 6:54:41 PM]   "RoutePrefix": "api"
+[6/18/2020 6:54:41 PM] }
+[6/18/2020 6:54:41 PM] Starting JobHost
+[6/18/2020 6:54:41 PM] Starting Host (HostId=kronos-1911690562, InstanceId=febb7b55-d6e7-45d3-a651-a079cf7c6049, Version=3.0.13353.0, ProcessId=1640, AppDomainId=1, InDebugMode=False, InDiagnosticMode=False, FunctionsExtensionVersion=(null))
+[6/18/2020 6:54:41 PM] Loading functions metadata
+[6/18/2020 6:54:41 PM] 1 functions loaded
+[6/18/2020 6:54:41 PM] Generating 1 job function(s)
+[6/18/2020 6:54:41 PM] Found the following functions:
+[6/18/2020 6:54:41 PM] coretoolsazfunc.corehttptrigger.Run
+[6/18/2020 6:54:41 PM] 
+[6/18/2020 6:54:41 PM] Initializing function HTTP routes
+[6/18/2020 6:54:41 PM] Mapped function route 'api/corehttptrigger' [get,post] to 'corehttptrigger'
+[6/18/2020 6:54:41 PM] 
+[6/18/2020 6:54:41 PM] Host initialized (199ms)
+[6/18/2020 6:54:41 PM] Host started (207ms)
+[6/18/2020 6:54:41 PM] Job host started
+Hosting environment: Production
+Content root path: E:\Azure\Projects\coretoolsazfunc\bin\output
+Now listening on: http://0.0.0.0:7071
+Application started. Press Ctrl+C to shut down.
+
+Http Functions:
+
+	corehttptrigger: [GET,POST] http://localhost:7071/api/corehttptrigger
+
+[6/18/2020 6:54:42 PM] Executing HTTP request: {
+[6/18/2020 6:54:42 PM]   "requestId": "7a989eb9-3754-4727-9deb-3ca47181dc4c",
+[6/18/2020 6:54:42 PM]   "method": "GET",
+[6/18/2020 6:54:42 PM]   "uri": "/api/sorehttptrigger"
+[6/18/2020 6:54:42 PM] }
+[6/18/2020 6:54:42 PM] Executed HTTP request: {
+[6/18/2020 6:54:42 PM]   "requestId": "7a989eb9-3754-4727-9deb-3ca47181dc4c",
+[6/18/2020 6:54:42 PM]   "method": "GET",
+[6/18/2020 6:54:42 PM]   "uri": "/api/sorehttptrigger",
+[6/18/2020 6:54:42 PM]   "identities": [],
+[6/18/2020 6:54:42 PM]   "status": 404,
+[6/18/2020 6:54:42 PM]   "duration": 160
+[6/18/2020 6:54:42 PM] }
+[6/18/2020 6:54:46 PM] Executing HTTP request: {
+[6/18/2020 6:54:46 PM]   "requestId": "811237d2-b991-484a-97e4-e3eb25ac1172",
+[6/18/2020 6:54:46 PM]   "method": "GET",
+[6/18/2020 6:54:46 PM]   "uri": "/api/corehttptrigger"
+[6/18/2020 6:54:46 PM] }
+[6/18/2020 6:54:47 PM] Executing 'corehttptrigger' (Reason='This function was programmatically called via the host APIs.', Id=f50ed457-0685-4c09-a42f-3f2fca0bb3c8)
+[6/18/2020 6:54:47 PM] C# HTTP trigger function processed a request.
+[6/18/2020 6:54:47 PM] Executed 'corehttptrigger' (Succeeded, Id=f50ed457-0685-4c09-a42f-3f2fca0bb3c8)
+[6/18/2020 6:54:47 PM] Executed HTTP request: {
+[6/18/2020 6:54:47 PM]   "requestId": "811237d2-b991-484a-97e4-e3eb25ac1172",
+[6/18/2020 6:54:47 PM]   "method": "GET",
+[6/18/2020 6:54:47 PM]   "uri": "/api/corehttptrigger",
+[6/18/2020 6:54:47 PM]   "identities": [
+[6/18/2020 6:54:47 PM]     {
+[6/18/2020 6:54:47 PM]       "type": "WebJobsAuthLevel",
+[6/18/2020 6:54:47 PM]       "level": "Admin"
+[6/18/2020 6:54:47 PM]     }
+[6/18/2020 6:54:47 PM]   ],
+[6/18/2020 6:54:47 PM]   "status": 200,
+[6/18/2020 6:54:47 PM]   "duration": 1198
+[6/18/2020 6:54:47 PM] }
+Application is shutting down...
+Terminate batch job (Y/N)? Terminate batch job (Y/N)? 
